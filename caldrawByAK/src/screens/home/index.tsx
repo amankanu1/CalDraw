@@ -151,7 +151,7 @@ export default function Home() {
                 method: 'post',
                  
 
-                url: `http://localhost:8900/calculate/calculate`,
+                url: `https://caldraw.onrender.com/calculate/calculate`,
                 data: {
                     image: canvas.toDataURL('image/png'),
                     dict_of_vars: dictOfVars
